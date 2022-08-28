@@ -22,6 +22,8 @@ class TestCalc(unittest.TestCase):
 
     def test_divide(self):
         self.assertEqual(divide(20, 10), 2)
+        self.assertEqual(divide(-5, 10), -0.5)
+        self.assertEqual(divide(-5, -10), 0.5)
 
 
 if __name__ == '__main__':
