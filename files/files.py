@@ -1,4 +1,4 @@
-x = 'files/words.txt'
+x = 'words.txt'
 
 
 with open(x) as file:
